@@ -1,0 +1,41 @@
+h1 {
+text-align: center;
+}
+.colortext {
+	color: red;
+}
+a{
+	text-decoration:none;
+	color: black;
+}
+ #firts {
+ 	font-size: 24px:
+ 	color:#ddd;
+	font-style: italic;
+ }
+ .p #second {
+ 	font-size: 10px:
+ 	color:#ccc;
+	font-style: oblique;
+}
+ .ordinary {
+	font-size: 18px:
+ 	color:#ddd;
+	font-style: normal;
+ }
+ h2{
+ 	text-align: center;
+ }
+ .correct {
+ 	font-size: 20px;
+ 	color: green;
+ }
+ .top {
+ 	font-family: serif;
+ 	color: red;
+ 	font-size: 55px;
+ }
+ .foot {
+ 	color: yellow;
+ 	font-size: 80px;
+ }

@@ -1,0 +1,42 @@
+.foot {
+	display: block;
+	text-align: center;
+}
+#line{
+	color: red;
+
+}
+#line_
+{ color:green;
+
+}
+ul {
+	list-style: none;
+
+}
+.first_list li{
+	list-style-type: ;
+}
+.first_list li:before{
+	content: '\00B7';
+	padding-right: 35px;
+}
+.second_list, .first_list {
+	padding-left: 15px;
+}
+.second_list li:before{
+	content: '\00A7';
+	padding-right: 15px;
+
+}
+.third_list li{
+	list-style-type:circle;
+	padding-left: 15px;
+}
+.third_list {
+	padding-left: 32px;
+}
+ul li {
+	list-style-type: none;
+
+}
