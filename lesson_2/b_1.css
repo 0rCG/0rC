@@ -1,0 +1,32 @@
+.a {
+	background: green;
+
+}
+.a_1 {
+	display: inline-block;
+	background: red ;
+	height: 50px;
+	width: 49.4%;
+}
+.b {
+	background: yellow;
+	height: 250px;
+	margin:5px 7px 10px 7px;
+
+}
+.c_1 {
+	display: inline-block;
+	background: black;
+	height: 180px;
+	width: 32.7%;
+	margin-bottom: 5px;
+}
+.d_1 {
+	display: inline-block;
+	background: green;
+	height: 90px;
+	width: 24.5%;
+}
+body {
+	text-align: center;
+}
