@@ -1,0 +1,40 @@
+.header {
+	width: 90%;
+	height: 10%;
+	border-radius: 0px 0px 10px 10px;
+	border:2px solid black;
+	position: fixed;
+	bottom: 85%;
+
+}
+.menu {
+	width: 10%;
+	height: 90%;
+	position: fixed;
+	border: 2px solid red;
+	background-attachment:local;
+	background: red;
+	opacity: 0.2;
+}
+a {
+	display: block;
+	margin-top: 40px;
+	border: 1px solid black;
+	border-radius: 40px;
+	text-align-last: center;
+	background: red;
+}
+.center {
+border:2px solid black;
+height: 50px;
+width: 70px;
+}
+.footer {
+	width: 90%;
+	height: 15%;
+	border:2px solid green;
+	border-radius: 10px 10px 0px 0px;
+	text-align:center;
+	position: fixed; 
+    top: 78%;
+   }
