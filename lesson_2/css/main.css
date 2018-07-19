@@ -1,0 +1,55 @@
+.header {
+	width: 90%;
+	height: 10%;
+	border-radius: 0px 0px 10px 10px;
+	position: fixed;
+	top: 0;
+	background: red;
+
+}
+.menu {
+	width: 10%;
+	height: 90%;
+	position: fixed ;
+	background-attachment:local;
+	background: rgba( 127, 255, 0, 0.3);
+	bottom: 0;
+}
+a {
+	display: block;
+	margin-top: 55px;
+	border: 1px solid black;
+	border-radius: 40px;
+	text-align-last: center;
+	background: red;
+	opacity: 1;
+
+}
+.center {
+
+height: 215px;
+width: 980px;
+padding-top: 3.5%;
+margin-left:140px;
+}
+.footer {
+	width: 90%;
+	height: 15%;
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+	position: fixed; 
+    bottom: 0;
+    padding-top: 15px;
+    background: blue;
+    opacity: 0.4;
+   }
+.second_list li:before{
+	content: '\00A7';
+	padding-right: 15px;
+
+}
+
+ul li {
+	list-style-type: none;
+
+}
