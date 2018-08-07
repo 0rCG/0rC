@@ -1,0 +1,20 @@
+ body > div {
+  margin: 300px;
+  width: 300px;
+  height: 80px;
+  border-radius: 8px;
+  background: #00ff00;
+  color: black;
+  font-family: Arial;
+  font-weight: 500;
+  font-size: 4.5em;
+  text-align: center;
+  line-height: normal;
+  transition: all 0.8s ease;
+}
+
+.clac:hover {
+  -webkit-transform: scale(2.5);
+  -ms-transform: scale(2.5);
+  transform: scale(2.5);
+}
