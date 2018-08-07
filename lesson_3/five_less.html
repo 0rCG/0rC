@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>five_less</title>
+	<style>
+		body {
+			display: flex;
+			flex-wrap: wrap;
+			width: 100%;
+			height: 400px;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.bottom {
+			border-radius: 5px;
+			margin-left: 15px;
+			margin-bottom: 15px;
+			background-color: #BA55D3;
+			width: 200px;
+			height: 60px;
+			text-align: center;
+			color: black;
+			line-height: 60px;
+			font-size: 120%;
+
+		}
+		.del {
+			background: #00ff00;
+		}
+		.link {
+			background: blueviolet
+		}
+		a {
+			display: block;
+			color: black;
+			text-decoration: none;
+
+		}
+	</style>
+</head>
+<body>
+	<script>
+
+		document.body.style.backgroundColor='#OOFF00';
+		for (var i = 1.; i <= 3; i++) {var elem=document.createElement('button');
+		elem.classList.add('bottom');
+	document.body.appendChild(elem);
+	/*кнопки*/
+			
+		}
+		var but= document.querySelector('button');
+		var bod= document.querySelector('body');
+		but.appendChild(document.createTextNode('Color'));
+		but.onclick= function()
+		{
+			if(bod.style.backgroundColor!='blue')
+				{ bod.style.backgroundColor='blue';}
+			else{
+				bod.style.backgroundColor='#00FF00'
+			}
+		}/*замена цвета*/
+		var det= document.body.children[2];
+		var u= document.createElement('a');
+		det.classList.add('kop');
+		u.href='./index.html';
+		u.appendChild(document.createTextNode('Link'));
+		det.appendChild(u);
+		/*добавление ссылки*/
+
+		var crash= document.body.children[3]
+		crash.classList.add('det');
+		crash.innerHTML='Crash'
+		crash.onclick= function(){
+			document.body.innerHTML='';
+			window.location='./block.html'
+		}
+	</script>
+	
+</body>
+</html>
