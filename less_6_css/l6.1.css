@@ -9,36 +9,38 @@ div {
 }
 .nav {
    
-    
-  
 }
 .menu {
+	width: 300px;
     text-align: center;
     padding-top: 10px;
-    text-size:15px;
+    font-size: 35px;
+    font-family: arial;
 }
 @keyframes swing {
   15% {
-    transform: translateX(5px);
+    transform: translateX(15px);
   }
   30% {
-    transform: translateX(35px);
+    transform: translateX(45px);
   }
   50% {
-    transform: translateX(50px);
-  }
-  65% {
     transform: translateX(65px);
   }
-  80% {
+  65% {
     transform: translateX(80px);
   }
+  80% {
+    transform: translateX(90px);
+  }
   100% {
-    transform: translateX(100px);
+    transform: translateX(150px);
   }
 }
 
 .nav:hover {
   animation: swing 0.5s ease;
   animation-iteration-count: 1;
+  animation-duration: 3s;
+
 }

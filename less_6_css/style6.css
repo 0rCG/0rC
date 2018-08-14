@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.image{
+    margin: 0 auto;
+    width: 100px;
+    height: 140px;
+    background-image: url(pict.png);
+    background-size: 100%;
+}
+
+
+.image:hover{
+    margin-top: 15%;
+    transform: scale(3);
+    transition: 1.5s ease-in-out;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  transition: .4s ease-in-out;
+}
+
+.topmenu{
+  text-align: right;
+  padding: 10px;
+}
+
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+}
+
+.topmenu > li:after {
+  position: absolute;
+  right: 0;
+  width: 1px;
+  height: 12px;
+  background: #d2d2d2;
+  top: 16px;
+  box-shadow: 4px -2px 0 #d2d2d2;
+  transform: rotate(30deg);
+}
+
+.topmenu > li > a {
+  padding: 12px 26px;
+  color: #767676;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.topmenu li a:hover { 
+    color: #c0a97a;
+}
+
+.submenu {
+    display:flex;/*почему при маленькой ширине не сжимается?*/
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-basis: auto;
+  position: absolute;
+  right: 100%;
+  top: 10%;
+    width: 437px;
+  background: #fafafa;
+  border: 1px solid #ededed;
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(.8);
+  transition: .4s ease-in-out;
+}
+
+.submenu li{
+    background-color: #DCDCDC;
+   border: 1px solid #efefef;     
+}
+
+.submenu li a {
+  padding: 10px 0;
+  margin: 0 10px;
+  font-size: 12px;
+  color: #484848;
+  font-family: 'Kurale', serif;
+}
+.topmenu > li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.forma{
+    width: 270px;
+    height: 90px;
+    border: 1px solid #ededed;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-top:5px;
+    background-color:#DCDCDC;
+}
+
+.forma div, button{
+    margin-top: 10px;
+}
+
+p{
+    margin: 20px;
+}
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Stat

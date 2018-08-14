@@ -1,0 +1,17 @@
+
+
+.calc(@a: 1, @b: 2, @c: 3) {	
+
+	@d: ((sqrt(@a)) + (cos(@b)) + (max(@a, @b, @c) ));
+	/* content: @d; */
+
+	@e: pow(@c,5);
+	/* content: @e; */
+
+	@result: (@d / @e);
+	content: '@{result}';
+
+}
+.test:after {
+	.calc();
+}
