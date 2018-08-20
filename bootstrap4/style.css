@@ -1,0 +1,16 @@
+.carousel-indicators li {
+	background-color: #ccc;
+	border: 1px solid black;
+}
+
+
+div .text-md-center {
+	background: url(img/pic.jpg) no-repeat ;
+	border-radius: 50% ;
+	color: #fff;
+    font-size: 16px;
+    padding: 90px;
+} 
+.navbar img {
+	max-width: 70px;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+
+<meta charset="UTF-8"> 
+<title>Document</title> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous"> 
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head> 
+
+<body> 
+
+<!-- навигационная панель с поиском и ссылками -->
+
+<header> 
+
+	<nav class="navbar navbar-dark bg-inverse">	
+	<a class="navbar-brand" href="#"><img src="img/logo.png" alt="..." class="img-thumbnail"></a> 
+<form class="form-inline pull-xs-left">
+    <input class="form-control" type="text" placeholder="Search">
+    <button class="btn btn-outline-success" type="submit">Go!</button>
+</form>
+	<ul class="nav navbar-nav pull-xs-right"> 
+		<li><a href="#">Link</a></li> 
+		<li><a href="#">Link</a></li> 
+	</ul> 
+	
+	</nav> 
+	</header> 
+
+<!-- Карусель -->
+
+<div class="container"> 
+	<div class="row"> 
+		<div class="col-md-12"> 
+		<div id="carousel" class="carousel slide"  data-ride="carousel">
+
+<!— Indicators —> 
+				<ol class="carousel-indicators"> 
+					<li data-target="#carousel" data-slide-to="0" class="active"></li> 
+					<li data-target="#carousel" data-slide-to="1"></li> 
+					<li data-target="#carousel" data-slide-to="2"></li> 
+					<li data-target="#carousel" data-slide-to="3"></li> 
+				</ol> 
+
+				<!— Wrapper for slides —> 
+				<div class="carousel-inner"> 
+					<div class="carousel-item active"> 
+						<img src="img/oboi.jpg""; alt="first"> 
+					 	<div class="carousel-caption"> 
+						<h3>заглавие</h3> 
+						<p>Какой-то текст на активном слайдере</p> 
+					</div> 
+					</div> 
+					<div class="carousel-item"> 
+						<img src="img/oboi_2.jpg"; alt="second"> 
+					</div> 
+					<div class="carousel-item"> 
+						<img src="img/oboi_3.jpg"; alt="..."> 
+					</div> 
+					<div class="carousel-item"> 
+						<img src="img/oboi_4.jpg"; alt="..."> 
+					</div> 
+				</div> 
+
+				<!— Controls —> 
+				 <a class="left carousel-control" href="#carousel" data-slide="prev">
+				    <span class="icon-prev" aria-hidden="true"></span>
+				</a>
+				<a class="right carousel-control" href="#carousel"  data-slide="next">
+				    <span class="icon-next" aria-hidden="true"></span>
+				</a>
+			</div> 
+		</div> 
+	</div> 
+</div> 
+<!-- Текст в двух колонках -->
+	<div class="container"> 
+		<div class="row"> 
+			<div class="col-md-6">Струна, пистолеты и снайперскай винтовка - все это в прошлом для лысого из Hitman. Сорок седьмой взял перерыв и решил занятся веб-разработкой, где зарабатывать деревяные легче, и не надо пачкать руки. В этом видеокурсе сорок седьмой тихо научит вас всего того, что нужно знать современному веб-разработчику, и вам для этого не нужно будет проходить миссиии по несколько раз. Так как этот курс сворован, мы б на вашем месте, время от времени,</div> 
+			<div class="col-md-6">В этом курсе по основам веб-разработки ты узнаешь обо всем, что нужно для того чтобы верстать сайты быстро и правильно, тоесть так, как это обычно требуют заказчики или фирмы. И о чудо, мы сами не подозревали, но похоже агент codename 47 встроился в studyboom и талкает свои курсы на этой площадке, так что за качетсво не ручаемся.</div> 
+		</div> 
+	</div>
+
+<!-- Подключение картинки -->
+		<div class="container"> 
+			<div class="row"> 
+				<div class="col-auto"> 
+				<div class="text-md-center"> кавтинка
+			
+</div>
+				</div> 
+			</div> 
+		</div>
+
+<!-- Карточка владельца -->
+
+		<div class="container">
+			<div class="row">
+					<div class="col-md-4">
+  			<h1>Card</h1>
+ 			<div class="card" style="width:400px">
+   				<img class="card-img-top" src="img/orig.jpg" alt="Card image" style="width:100%">
+    		<div class="card-body">
+		      <h4 class="card-title">Name</h4>
+		      <p class="card-text">Some example text</p>
+		      <a href="#" class="btn btn-primary">See Profile</a>
+    		</div>
+        </div>  
+					</div>
+					<div class="col-md-4">
+		  <div class="card" style="width:400px">
+		    <div class="card-body">
+		      <h4 class="card-title">Card_2</h4>
+		      <p class="card-text">Some example text.</p>
+		      <a href="#" class="btn btn-primary">See Profile</a>
+		    </div>
+	    <img class="card-img-bottom" src="img/orig_2.jpg" alt="Card image" style="width:100%">
+		  </div>
+		</div>
+</div>
+</div>
+<!-- Всплывающая кнопка -->
+
+		<div class="container"> 
+			<div class="row justify-content-centr"> 
+				<div class="col-md-4"> 
+					<p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#collapseme" aria-expanded="false" aria-controls="collapseme">
+    Link
+  </a>
+</p>
+<div class="collapse" id="collapseme">
+  <div class="card card-block">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
+</div>
+			</div> 
+		</div>
+	</div>
+<!--модальное окно -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button>
+
+				<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  				<div class="modal-dialog modal-sm">
+    			<div class="modal-content">
+			      text -test
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+</div>
+		
+
+<!-- Копирайтер в футере -->
+
+	<footer class="pos-f-b  bg-inverse"> 
+			<div class="container"> 
+				<div class="row"> 
+					<div class="col-md-12 "> 	
+				&copy Макеев Петр Николаевч Контакты +375(25) 941-73-07
+			
+					</div> 
+				</div> 
+			</div> 
+	</footer> 
+
+<!-- JS -->
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> 
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+
+</body> 
+</html> 
