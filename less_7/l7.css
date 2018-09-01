@@ -1,0 +1,39 @@
+body {
+	width: 300px;
+	height: 100px;
+	text-align: center;
+}
+.fi {
+	width: ;
+	font-size: 10px;
+	line-height: 20px;
+	color: #333;
+	background-color: #e0e0e0;
+	
+
+}
+.fi:hover {
+	background-color: #e8e8e8 ;
+	color: #333;
+}
+.tw {
+	font-size: 14px;
+	line-height: 20px;
+	color: #fff;
+	background-color: #3b83c0;
+	
+}
+.tw:hover {
+	background-color: #458ac6 ;
+	color: #fff;}
+
+.tr {
+	font-size: 18px;
+	line-height: 20px;
+	color: #fff;
+	background-color: #404245;d
+	
+}
+.tr:hover {
+	background-color: #1b1c1d ;
+	color: #fff;}
